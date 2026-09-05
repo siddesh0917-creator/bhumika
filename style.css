@@ -1,21 +1,35 @@
 .navbar {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 10px;
     background-color: rgb(81, 149, 185);
     border-bottom:black;
+    justify-content: space-between;
+    padding: 10px;
+    cellspacing: 0;
 }
 .logo h3 {
-    margin: 0;
+    text-decoration: solid;
 }
 
 .link a {
+    font-size: 16px;
     text-decoration: none;
     color: #333;
     margin-left: 1rem;
     transition: color 0.3s;
+    align-items: center;
+}
+.content {
+    text-align: left;
+    color: white;
+    padding: 20px;
 }
 .main {
-    background-color:rgb(12, 167, 214);
+    background-image: url("C:/Users/LENOVO/Desktop/beautiful-tropical-beach-sea for my web site.jpg");
+    background-size: 100%;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-width: 100%;
+    background-height: 100px;
+    padding: 100px;
 }
