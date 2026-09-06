@@ -4,7 +4,7 @@
     background-color: rgb(81, 149, 185);
     border-bottom:black;
     justify-content: space-between;
-    padding: 10px;
+    padding: 5px;
     cellspacing: 0;
 }
 .logo h3 {
@@ -19,15 +19,27 @@
     transition: color 0.3s;
     align-items: center;
 }
-.content {
-    text-align: left;
-    color: white;
-    padding: 20px;
+.p1 {
+    font-size: 20px;
+    font-color: blue;
 }
-.main {
-    background-image: url("C:/Users/LENOVO/Desktop/beautiful-tropical-beach-sea for my web site.jpg");
+.p2 {
+    font-size: 50px;
+    font-color: black;
+}
+    
+.main{
+    background-image: url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dHJhdmVsJTIwc2Vhc2lkZXxlbnwwfHwwfHx8&auto=format&fit=crop&");
     background-size: 100%;
     background-position: 100%;
     background-repeat: no-repeat;
     padding: 100px;
+}
+.explore{
+    background-color: rgb(81, 149, 185);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
